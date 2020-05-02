@@ -1,0 +1,6 @@
+C:\Users\Adam\Desktop\MI_App\MI_App\bin\Debug\MI_App.exe.config
+C:\Users\Adam\Desktop\MI_App\MI_App\bin\Debug\MI_App.exe
+C:\Users\Adam\Desktop\MI_App\MI_App\bin\Debug\MI_App.pdb
+C:\Users\Adam\Desktop\MI_App\MI_App\obj\Debug\MI_App.csprojResolveAssemblyReference.cache
+C:\Users\Adam\Desktop\MI_App\MI_App\obj\Debug\MI_App.exe
+C:\Users\Adam\Desktop\MI_App\MI_App\obj\Debug\MI_App.pdb
