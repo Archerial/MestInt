@@ -45,8 +45,13 @@ namespace MI_App
                 {
                     belerak(player);
                     Console.WriteLine("Bekerült");
-                    foglaltPoziciok.Add(player);
                     utolsoBekerultSzam = player;
+                    foglaltPoziciok.Add(player);
+                    if (player > 1 && player < 32)
+                    {
+                        foglaltPoziciok.Add(player - 1);
+                        foglaltPoziciok.Add(player+1);
+                    }
                 }
                 else
                 {
@@ -67,8 +72,12 @@ namespace MI_App
                 if (rakhatE(rekeszek,aiRnd))
                 {
                     Console.WriteLine("A kavics berakása a {0}. pozícióra",aiRnd);
-                    belerak(aiRnd); 
+                    belerak(aiRnd);
                     foglaltPoziciok.Add(aiRnd);
+                    if (aiRnd > 1 && aiRnd < 32) {
+                        foglaltPoziciok.Add(aiRnd - 1);
+                        foglaltPoziciok.Add(aiRnd + 1);
+                    } 
                     utolsoBekerultSzam = aiRnd;
                 }else
                 {
